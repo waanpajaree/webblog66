@@ -1,13 +1,12 @@
 {
   "name": "nv-webblog-server",
   "version": "1.0.0",
-  "description": "nodejs vuejs webblog server (back end)",
+  "description": "nodejs vuejs webblog server (backend)",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "pajaree sawatwong",
+  "author": "Rathabod Khiaolee",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
