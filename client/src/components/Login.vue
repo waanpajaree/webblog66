@@ -29,10 +29,17 @@ export default {
         this.$store.dispatch("setUser",response.data.user)
         
         console.log(response);
+
+        this.$router.push({ 
+          name: "users" 
+        })
       } catch (error) {
         console.log(error);
+        this.error = error.response.data.error
+        this.email = ''
+        this.password = ''
       }
     }
   }
-};
+}
 </script>

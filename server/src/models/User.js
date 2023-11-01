@@ -33,8 +33,9 @@ module.exports = (sequelize, DataTypes) => {
          if (password == this.password) {
 
         return true
+         }else{
+            return false
          }
-         return false
     }
     User.associate = function (models) { }
 

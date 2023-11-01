@@ -14,7 +14,7 @@ app.use(cors())
 
 require('./routes')(app)
 
-
+require('./userPassport')
 
 let port = process.env.PORT || config.port
 sequelize.sync({ force: false }).then(() => {
